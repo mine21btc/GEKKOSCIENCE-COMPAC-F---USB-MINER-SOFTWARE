@@ -48,7 +48,7 @@ folgendes sollte angezeigt werden:
 
 Nun erstellen wir die cgminer.sh Datei, wo unser Start Befehl gespeichert wird
 
-Wir gehen in den Ordner "cgminer" mit 
+Wir gehen in den Ordner "cgminer" (wenn ihr dort nicht schon seid) mit 
 
 ```
 cd cgminer
@@ -69,7 +69,7 @@ cd /home/user einsetzen/cgminer
 sudo ./cgminer -o stratum+tcp://solo.ckpool.org:3333 -u BtcAdresse.Miner1 -p x --gekko-compacf-freq 350 --gekko-start-freq 260 --gekko-mine2 --gekko-tune2 60 2> "run-`date +%Y%m%d%H%M%S`.log"
 ```
 
-"user einsetzen" muss dann mit dem jeweiligen Usernamen ersetzt werden
+"user einsetzen" muss dann mit dem jeweiligen Usernamen ersetzt werden + bei "BtcAdresse.Miner1" kommt eure BTC Adresse hinein, wohin der Reward geschickt werden soll
 
 
 Damit der Miner nach jedem Neustart direkt wieder von alleine seine Arbeit aufnimmt, erstellen wir nun den Autostart:
