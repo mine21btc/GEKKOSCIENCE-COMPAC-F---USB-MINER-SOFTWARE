@@ -11,15 +11,7 @@ sudo apt-get upgrade -y
 ```
 
 ```
-sudo apt-get install -y build-essential autoconf automake libtool pkg-config libcurl4-openssl-dev libudev-dev libusb-1.0-0-dev libncurses5-dev zlib1g-dev git
-```
-
-```
-sudo apt install screen -y
-```
-
-```
-sudo apt install git -y
+sudo apt-get install -y build-essential autoconf automake libtool pkg-config libcurl4-openssl-dev libudev-dev libusb-1.0-0-dev screen libncurses5-dev zlib1g-dev git
 ```
 
 ```
